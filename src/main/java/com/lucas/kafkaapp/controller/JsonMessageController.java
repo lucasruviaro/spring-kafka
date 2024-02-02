@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("api/v1/kafka")
+@RequestMapping("api/v1/kafka/jsonmessage")
 public class JsonMessageController {
 
     private final JsonKafkaProducer jsonKafkaProducer;
